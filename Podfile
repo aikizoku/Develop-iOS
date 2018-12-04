@@ -9,5 +9,6 @@ target 'develop' do
   pod 'XCGLogger'
   pod 'Firebase/Core'
   pod 'Firebase/Messaging'
+  pod 'SwiftMessages'
   #  pod 'R.swift'
 end

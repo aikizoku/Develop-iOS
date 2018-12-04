@@ -89,6 +89,8 @@ extension AppDelegate {
         
         UserNotificationManager.shared.setup(application: application)
         
+        UIApplication.shared.applicationIconBadgeNumber = 0
+        
         return true
     }
     
@@ -105,6 +107,7 @@ extension AppDelegate {
     }
     
     fileprivate func handleDidBecomeActive(application: UIApplication) {
+        UIApplication.shared.applicationIconBadgeNumber = 0
     }
     
     fileprivate func handle(application: UIApplication,
