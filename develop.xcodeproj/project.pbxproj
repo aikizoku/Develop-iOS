@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		72D2BC70B7A283B055900306 /* Pods_develop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7155C064C0257EE5CEBAFEE1 /* Pods_develop.framework */; };
+		827D333122603B8E00886252 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 827D333022603B8D00886252 /* GoogleService-Info.plist */; };
 		AE92B2F2218C86EA00B73DFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE92B2F1218C86EA00B73DFF /* AppDelegate.swift */; };
 		AE92B2F7218C86EA00B73DFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE92B2F5218C86EA00B73DFF /* Main.storyboard */; };
 		AE92B2F9218C86EB00B73DFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE92B2F8218C86EB00B73DFF /* Assets.xcassets */; };
@@ -27,13 +28,13 @@
 		AEEF3FAD218CA44100288E25 /* PushViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEF3FAC218CA44100288E25 /* PushViewModel.swift */; };
 		AEEF3FB0218CA45800288E25 /* PushView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEF3FAF218CA45800288E25 /* PushView.swift */; };
 		AEEF3FB2218CA46300288E25 /* PushView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEEF3FB1218CA46300288E25 /* PushView.xib */; };
-		AEEF3FB4218CA82000288E25 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AEEF3FB3218CA82000288E25 /* GoogleService-Info.plist */; };
 		AEEF3FB7218D34F100288E25 /* UserNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEF3FB6218D34F100288E25 /* UserNotificationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2D74243C8EA10A801743B40B /* Pods-develop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-develop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-develop/Pods-develop.debug.xcconfig"; sourceTree = "<group>"; };
 		7155C064C0257EE5CEBAFEE1 /* Pods_develop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_develop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		827D333022603B8D00886252 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8E982540FB7FFAFA0BAC6F18 /* Pods-develop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-develop.release.xcconfig"; path = "Pods/Target Support Files/Pods-develop/Pods-develop.release.xcconfig"; sourceTree = "<group>"; };
 		AE92B2EE218C86EA00B73DFF /* develop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = develop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE92B2F1218C86EA00B73DFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,7 +57,6 @@
 		AEEF3FAC218CA44100288E25 /* PushViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushViewModel.swift; sourceTree = "<group>"; };
 		AEEF3FAF218CA45800288E25 /* PushView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushView.swift; sourceTree = "<group>"; };
 		AEEF3FB1218CA46300288E25 /* PushView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PushView.xib; sourceTree = "<group>"; };
-		AEEF3FB3218CA82000288E25 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AEEF3FB6218D34F100288E25 /* UserNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNotificationManager.swift; sourceTree = "<group>"; };
 		AEEF3FB8218D39E800288E25 /* develop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = develop.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,7 +112,7 @@
 				AE92B2F8218C86EB00B73DFF /* Assets.xcassets */,
 				AE92B2FA218C86EB00B73DFF /* LaunchScreen.storyboard */,
 				AE92B2FD218C86EB00B73DFF /* Info.plist */,
-				AEEF3FB3218CA82000288E25 /* GoogleService-Info.plist */,
+				827D333022603B8D00886252 /* GoogleService-Info.plist */,
 			);
 			path = develop;
 			sourceTree = "<group>";
@@ -287,7 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEEF3FAB218CA40C00288E25 /* Push.storyboard in Resources */,
-				AEEF3FB4218CA82000288E25 /* GoogleService-Info.plist in Resources */,
+				827D333122603B8E00886252 /* GoogleService-Info.plist in Resources */,
 				AE92B2FC218C86EB00B73DFF /* LaunchScreen.storyboard in Resources */,
 				AE92B312218C8CCB00B73DFF /* SimpleTableViewCell.xib in Resources */,
 				AEEF3FB2218CA46300288E25 /* PushView.xib in Resources */,
@@ -328,7 +328,6 @@
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjcExceptionBridging/ObjcExceptionBridging.framework",
 				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
-				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftMessages/SwiftMessages.framework",
@@ -340,7 +339,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjcExceptionBridging.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftMessages.framework",
