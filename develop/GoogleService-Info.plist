@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>456516364657-f42ukspv5cavnm2vfqoh4obhf6b0heim.apps.googleusercontent.com</string>
+	<string>456516364657-6r1sl3rh9tmumr7vsnr1odcdrjs8sqdl.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.456516364657-f42ukspv5cavnm2vfqoh4obhf6b0heim</string>
+	<string>com.googleusercontent.apps.456516364657-6r1sl3rh9tmumr7vsnr1odcdrjs8sqdl</string>
 	<key>API_KEY</key>
 	<string>AIzaSyA2dcmFgAv8lx4yQNlQShTyDXKK66ySha4</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>jp.rabee.develop</string>
+	<string>jp.rabee.lightning.inhouse</string>
 	<key>PROJECT_ID</key>
 	<string>staging-push-rabee-jp</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,7 +29,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:456516364657:ios:2c6dd0c8ce90c2c0</string>
+	<string>1:456516364657:ios:27b7b6e750be70d9</string>
 	<key>DATABASE_URL</key>
 	<string>https://staging-push-rabee-jp.firebaseio.com</string>
 </dict>

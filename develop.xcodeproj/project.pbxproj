@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		72D2BC70B7A283B055900306 /* Pods_develop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7155C064C0257EE5CEBAFEE1 /* Pods_develop.framework */; };
-		827D333122603B8E00886252 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 827D333022603B8D00886252 /* GoogleService-Info.plist */; };
+		8250D58A22607AA700DAB581 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8250D58922607AA700DAB581 /* GoogleService-Info.plist */; };
 		AE92B2F2218C86EA00B73DFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE92B2F1218C86EA00B73DFF /* AppDelegate.swift */; };
 		AE92B2F7218C86EA00B73DFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE92B2F5218C86EA00B73DFF /* Main.storyboard */; };
 		AE92B2F9218C86EB00B73DFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE92B2F8218C86EB00B73DFF /* Assets.xcassets */; };
@@ -34,7 +34,7 @@
 /* Begin PBXFileReference section */
 		2D74243C8EA10A801743B40B /* Pods-develop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-develop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-develop/Pods-develop.debug.xcconfig"; sourceTree = "<group>"; };
 		7155C064C0257EE5CEBAFEE1 /* Pods_develop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_develop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		827D333022603B8D00886252 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8250D58922607AA700DAB581 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8E982540FB7FFAFA0BAC6F18 /* Pods-develop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-develop.release.xcconfig"; path = "Pods/Target Support Files/Pods-develop/Pods-develop.release.xcconfig"; sourceTree = "<group>"; };
 		AE92B2EE218C86EA00B73DFF /* develop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = develop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE92B2F1218C86EA00B73DFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -112,7 +112,7 @@
 				AE92B2F8218C86EB00B73DFF /* Assets.xcassets */,
 				AE92B2FA218C86EB00B73DFF /* LaunchScreen.storyboard */,
 				AE92B2FD218C86EB00B73DFF /* Info.plist */,
-				827D333022603B8D00886252 /* GoogleService-Info.plist */,
+				8250D58922607AA700DAB581 /* GoogleService-Info.plist */,
 			);
 			path = develop;
 			sourceTree = "<group>";
@@ -287,7 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEEF3FAB218CA40C00288E25 /* Push.storyboard in Resources */,
-				827D333122603B8E00886252 /* GoogleService-Info.plist in Resources */,
+				8250D58A22607AA700DAB581 /* GoogleService-Info.plist in Resources */,
 				AE92B2FC218C86EB00B73DFF /* LaunchScreen.storyboard in Resources */,
 				AE92B312218C8CCB00B73DFF /* SimpleTableViewCell.xib in Resources */,
 				AEEF3FB2218CA46300288E25 /* PushView.xib in Resources */,
@@ -524,9 +524,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.rabee.develop;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.rabee.lightning.inhouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "Develop-Debug";
+				PROVISIONING_PROFILE_SPECIFIER = "LightningInHouse-Debug";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -545,7 +545,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.rabee.develop;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.rabee.lightning.inhouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
